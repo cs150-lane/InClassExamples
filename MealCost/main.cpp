@@ -8,11 +8,25 @@
 // Hours Worked:	.1
 //*********************************************************************
 #include <iostream>
-#include <string>
+#include <iomanip>
 
 using namespace std;
 
 int main() {
+
+	double mealCost;
+	double tip, totalCost;
+
+	cout << "Enter Meal Cost: $";
+	cin >> mealCost;
+
+	tip = mealCost * 0.15;
+	totalCost = mealCost + tip;
+
+	cout << fixed << setprecision(2);
+	cout << endl << "Meal Cost: $" << mealCost << endl;
+	cout << "Tip: $" << tip << endl;
+	cout << "Total Cost: $" << totalCost << endl << endl;
 
 	return EXIT_SUCCESS;
 }
