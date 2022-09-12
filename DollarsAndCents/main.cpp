@@ -44,6 +44,8 @@ int main() {
 	totalCents = PENNY_VALUE * startingPennies + 
 		NICKLE_VALUE * startingNickles;
 
+	// note the variable names make the formulas
+	// above and below easy to read
 	endingDollars = totalCents / DOLLAR_VALUE;
 	endingPennies = totalCents % DOLLAR_VALUE;
 
