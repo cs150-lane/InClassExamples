@@ -13,14 +13,16 @@
 using namespace std;
 
 int main() {
-	
+
 	double order;
-	int shippingCost;  
+	int shippingCost;
 
 	const int HIGH_SHIPPING_CUTOFF = 30;
+	const int LOW_SHIPPING_CUTOFF = 50;  
 
-	const int HIGH_SHIPPING_COST = 5; 
-	const int MODERATE_SHIPPING_COST = 3;  
+	const int HIGH_SHIPPING_COST = 5;
+	const int MODERATE_SHIPPING_COST = 3;
+	const int LOW_SHIPPING_COST = 2;   
 
 	cout << "Enter order amount in dollars: $";
 	cin >> order;
@@ -30,10 +32,16 @@ int main() {
 	}
 
 	if (order > HIGH_SHIPPING_CUTOFF) {
-		shippingCost = MODERATE_SHIPPING_COST;
+		if (order < LOW_SHIPPING_CUTOFF) {
+			shippingCost = MODERATE_SHIPPING_COST;
+		}
+
+		if (order >= LOW_SHIPPING_CUTOFF) {
+			shippingCost = LOW_SHIPPING_COST;
+		}
 	}
 
-	cout << "The shipping cost is: $" << shippingCost; 
+	cout << "The shipping cost is: $" << shippingCost;
 
 	return EXIT_SUCCESS;
 }
