@@ -4,7 +4,7 @@
 // Date:					Sept 14, 2022
 // Class:					CS 150-01
 // Assignment:		In Class Practice
-// Purpose:				Practice with single-alternative ifs
+// Purpose:				Practice with single-alternative ifs, nesting
 // Hours Worked:	0.1
 //*********************************************************************
 #include <iostream>
