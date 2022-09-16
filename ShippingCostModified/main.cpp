@@ -31,14 +31,24 @@ int main() {
 		shippingCost = HIGH_SHIPPING_COST;
 	}
 
-	if (order > HIGH_SHIPPING_CUTOFF) {
-		if (order < LOW_SHIPPING_CUTOFF) {
-			shippingCost = MODERATE_SHIPPING_COST;
-		}
+	// Can do this using a NESTED if statement
+	//if (order > HIGH_SHIPPING_CUTOFF) {
+	//	if (order < LOW_SHIPPING_CUTOFF) {
+	//		shippingCost = MODERATE_SHIPPING_COST;
+	//	}
 
-		if (order >= LOW_SHIPPING_CUTOFF) {
-			shippingCost = LOW_SHIPPING_COST;
-		}
+	//	if (order >= LOW_SHIPPING_CUTOFF) {
+	//		shippingCost = LOW_SHIPPING_COST;
+	//	}
+	//}
+
+	// Can also do this using compound statement && (AND)
+	if (order > HIGH_SHIPPING_CUTOFF && order < LOW_SHIPPING_CUTOFF) {
+		shippingCost = MODERATE_SHIPPING_COST;
+	}
+
+	if (order > HIGH_SHIPPING_CUTOFF && order >= LOW_SHIPPING_CUTOFF) {
+		shippingCost = LOW_SHIPPING_COST; 
 	}
 
 	cout << "The shipping cost is: $" << shippingCost;
