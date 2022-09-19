@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShippingCost", "ShippingCos
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShippingCostModified", "ShippingCostModified\ShippingCostModified.vcxproj", "{C5D1FD1D-347C-4D1E-95B8-DAE3D218F79B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ErrorsOneReturn", "ErrorsOneReturn\ErrorsOneReturn.vcxproj", "{07454AF6-1DC6-4CA7-ABDC-B85709177F8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{C5D1FD1D-347C-4D1E-95B8-DAE3D218F79B}.Release|x64.Build.0 = Release|x64
 		{C5D1FD1D-347C-4D1E-95B8-DAE3D218F79B}.Release|x86.ActiveCfg = Release|Win32
 		{C5D1FD1D-347C-4D1E-95B8-DAE3D218F79B}.Release|x86.Build.0 = Release|Win32
+		{07454AF6-1DC6-4CA7-ABDC-B85709177F8B}.Debug|x64.ActiveCfg = Debug|x64
+		{07454AF6-1DC6-4CA7-ABDC-B85709177F8B}.Debug|x64.Build.0 = Debug|x64
+		{07454AF6-1DC6-4CA7-ABDC-B85709177F8B}.Debug|x86.ActiveCfg = Debug|Win32
+		{07454AF6-1DC6-4CA7-ABDC-B85709177F8B}.Debug|x86.Build.0 = Debug|Win32
+		{07454AF6-1DC6-4CA7-ABDC-B85709177F8B}.Release|x64.ActiveCfg = Release|x64
+		{07454AF6-1DC6-4CA7-ABDC-B85709177F8B}.Release|x64.Build.0 = Release|x64
+		{07454AF6-1DC6-4CA7-ABDC-B85709177F8B}.Release|x86.ActiveCfg = Release|Win32
+		{07454AF6-1DC6-4CA7-ABDC-B85709177F8B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
