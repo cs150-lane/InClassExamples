@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArrayPractice", "ArrayPract
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArrayTrees", "ArrayTrees\ArrayTrees.vcxproj", "{552C39F6-D832-4072-A633-14F5144F5433}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScoresParallelArrays", "ScoresParallelArrays\ScoresParallelArrays.vcxproj", "{E353246C-6B74-4961-BBC0-56434445731E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +223,14 @@ Global
 		{552C39F6-D832-4072-A633-14F5144F5433}.Release|x64.Build.0 = Release|x64
 		{552C39F6-D832-4072-A633-14F5144F5433}.Release|x86.ActiveCfg = Release|Win32
 		{552C39F6-D832-4072-A633-14F5144F5433}.Release|x86.Build.0 = Release|Win32
+		{E353246C-6B74-4961-BBC0-56434445731E}.Debug|x64.ActiveCfg = Debug|x64
+		{E353246C-6B74-4961-BBC0-56434445731E}.Debug|x64.Build.0 = Debug|x64
+		{E353246C-6B74-4961-BBC0-56434445731E}.Debug|x86.ActiveCfg = Debug|Win32
+		{E353246C-6B74-4961-BBC0-56434445731E}.Debug|x86.Build.0 = Debug|Win32
+		{E353246C-6B74-4961-BBC0-56434445731E}.Release|x64.ActiveCfg = Release|x64
+		{E353246C-6B74-4961-BBC0-56434445731E}.Release|x64.Build.0 = Release|x64
+		{E353246C-6B74-4961-BBC0-56434445731E}.Release|x86.ActiveCfg = Release|Win32
+		{E353246C-6B74-4961-BBC0-56434445731E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
