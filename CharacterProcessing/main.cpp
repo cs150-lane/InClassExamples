@@ -106,7 +106,7 @@ int getKey (char key[], int keyMax)
 
 	// if index == keyMax we read too many chars to
 	// add a \0
-	if (index < keyMax)
+	if (index != keyMax)
 	{
 		key[index] = '\0';
 		retVal = index;
